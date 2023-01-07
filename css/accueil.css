@@ -1,0 +1,64 @@
+div.presentation{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.presentation div.left p{
+    font-size: x-large;
+}
+
+div.presentation div.middle img{
+    height: 200px;
+}
+
+div.presentation div.right img{
+    height: 200px;
+    padding-left: 20px;
+}
+
+
+div.europe {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.europe div.left img{
+    height: 200px;
+}
+
+div.europe div.middle img{
+    height: 200px;
+    padding-left: 20px;
+}
+
+div.europe div.right p{
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+
+div.constitution{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.constitution div.left img{
+    height: 200px;
+}
+
+div.constitution div.right p{
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+
+footer{
+    padding-top: 25px;
+    font-size: small;
+}

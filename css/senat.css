@@ -1,0 +1,71 @@
+div.presentation{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.presentation div.left p{
+    font-size: x-large;
+}
+
+div.presentation div.middle img{
+    height: 200px;
+    padding-left: 20px;
+}
+
+div.presentation div.right img{
+    height: 200px;
+    padding-left: 20px;
+}
+
+
+div.composition{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.composition div.middle p{
+    font-size: x-large;
+    max-width: 500px;
+    padding-left: 20px;
+}
+
+div.composition div.right img{
+    height: 200px;
+    padding-left: 20px;
+}
+
+
+div.president{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.president div.gerard_larcher img{
+    height: 200px;
+    padding-left: 100px;
+}
+
+div.president div.gerard_larcher p.nom{
+    font-size: x-large;
+    padding-left: 100px;
+}
+
+div.president div.gerard_larcher p.role{
+    padding-left: 100px;
+}
+
+
+div.deputes p{
+    text-align: center;
+    padding-top: 50px;
+}
+div.deputes img{
+    text-align: center;
+    width: 900px;
+}

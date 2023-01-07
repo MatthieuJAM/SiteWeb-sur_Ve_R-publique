@@ -1,0 +1,135 @@
+body{
+    font-family: "Tiempos", serif;
+    padding-left: 25px;
+}
+
+a{
+    color: goldenrod;
+}
+
+
+nav.menu{
+    position: fixed;
+    background: white;
+}
+
+nav.menu ul li.btn-logo{
+    display: inline-block;
+    list-style: none;
+}
+
+nav.menu ul li.btn-logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+nav.menu ul li.btn-others{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+}
+
+nav.menu ul li.btn-others a{
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+
+nav.menu ul li.btn-others a:hover{
+    font-size: x-large;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+div.photos{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.photos img{
+    padding-left: 50px;
+    height: 200px;
+}
+
+
+div.role{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.role div.left img{
+    height: 200px;
+}
+
+div.role div.middle img{
+    padding-left: 20px;
+    height: 200px;
+}
+
+div.role div.right p{
+    padding-left: 20px;
+    font-size: x-large;
+}
+
+
+div.legislature{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+}
+
+div.legislature div.middle img{
+    padding-left: 20px;
+    height: 200px;
+}
+
+div.legislature div.right p{
+    padding-left: 20px;
+    font-size: x-large;
+}
+
+
+h2{
+    padding-top: 50px;
+    text-align: center;
+}
+
+div.presidents{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+div.presidents div.president-assemblee img{
+    padding-left: 20px;
+    height: 200px;
+}
+
+div.presidents div.presidents-partis img{
+    padding-left: 20px;
+    height: 120px;
+}
+
+
+div.tableau-partis{
+    padding-top: 50px;
+    text-align: center;
+}
+
+div.tableau-partis img{
+    width: 800px;
+}
+
+
+footer{
+    padding-top: 25px;
+    font-size: small;
+}
